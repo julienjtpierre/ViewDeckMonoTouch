@@ -6,7 +6,7 @@ using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 using MonoTouch.CoreAnimation;
 
-namespace IIViewDeckController
+namespace ViewDeckController
 {
 
 
@@ -81,6 +81,7 @@ namespace IIViewDeckController
 
 	[BaseType (typeof (UIViewController), Delegates = new string[]{"WeakDelegate","PanningGetureWeakDelegate"} )]
 	//Events = new Type[] { (typeof(IIViewDeckControllerDelegate))}
+	//[Register("IIViewDeckController",true)]
 	interface IIViewDeckController
 	{
 

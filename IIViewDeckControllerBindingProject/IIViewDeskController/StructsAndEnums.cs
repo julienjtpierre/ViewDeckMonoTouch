@@ -1,6 +1,6 @@
 using System;
 
-namespace IIViewDeckController
+namespace ViewDeckController
 {
 	public enum IIViewDeckSide  // in IIViewDeckController.h
 	{
