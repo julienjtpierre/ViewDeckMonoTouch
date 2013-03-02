@@ -1,6 +1,7 @@
-#ignore thumbnails created by windows
+#ignore thumbnails created by windows\Mac
 Thumbs.db
-#Ignore files build by Visual Studio
+.DS_Store
+#Ignore files build by Visual Studio\Monodevelop\Xcode
 *.obj
 *.exe
 *.pdb
@@ -30,7 +31,6 @@ _ReSharper*/
 *.user
 *.suo
 *.JustCode
-*DS_Store
 *.xcuserstate
 xcuserdata/
 *.userprefs
