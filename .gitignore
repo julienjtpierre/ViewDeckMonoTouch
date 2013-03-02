@@ -30,4 +30,7 @@ _ReSharper*/
 *.user
 *.suo
 *.JustCode
-*.DS_Store
+*DS_Store
+*.xcuserstate
+xcuserdata/
+*.userprefs
